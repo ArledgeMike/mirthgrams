@@ -1,0 +1,291 @@
+html, body{
+width:100%;
+height:100%;
+display:block;
+}
+	#bg {
+		position: fixed; right: 0; bottom: 0;
+		min-width: 100%; min-height: 100%;
+		width: auto; height: auto; z-index: -100;
+		background: url(../images/background.jpg) no-repeat;
+		background-size: cover;
+	}
+
+
+
+/* Login Screen Layout and Sizes */
+#login_container{
+	width:300px;
+  margin:auto;
+  position:relative;
+  
+	top: 114px;
+}
+
+
+/* Login Screen Styles */
+#login_container{
+	font-family:helvetica;
+	color:white;
+}
+#login_container h1{
+    text-align: center;
+  font-family: 'Coming Soon', cursive;	
+    font-size: 119px;
+    line-height:112px;
+    opacity:.8;
+    text-shadow: -6px 10px 6px rgba(0,0,0,.6);
+    margin-bottom:10px;
+    position:relative;
+
+}
+#login_container h1 span{
+  font-family: 'Coming Soon', cursive;
+  font-size:26px;
+  position:absolute;
+  top:-53px;
+  left: 133px;
+  text-shadow: 4px 4px 1px rgba(0,0,0,.9);
+}
+
+
+#login_container p{
+    font-size: 15px;
+    color:white;
+    opacity:.85;
+    line-height: 21px;
+text-align:center;
+letter-spacing:1.4px;
+    margin-bottom: 24px;
+}
+#login_container #login_button {
+	
+    background: white;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+  margin:auto;
+}
+#login_container #login_button a{
+	padding:0px;
+	margin:0px;
+	position:relative;
+	top: -4px;
+	left: 56px;
+	font-size: 30px;
+	vertical-align: 0px;
+	background: none;
+	color: rgba(33,33,33,.9);
+}
+#login_container #login_button svg{
+width: 35px;
+height:35px;
+position: relative;
+top: 2px;
+}
+#login_container #login_button svg path{
+fill: #e74717;
+}
+
+/* LAYOUT AND SORTED BY PAGE ORDER */
+#loadOverlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.7);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999999;
+}
+#loadOverlay #load_meter{
+    width: 100%;
+	
+    height: 7px;
+    position: relative;
+    top: 50%;
+    margin-top: -17px;
+    background: rgba(224,224,224,.4);
+}
+#loadOverlay #load_meter #load_complete{
+    width: 0%;
+	
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: rgba(224,224,224,.7);
+}
+#controls {
+  width: 100%;
+  height: 45px;
+  background: rgba(33,33,33,.8);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 99999;
+  box-shadow: 0px 16px 28px rgba(33,33,33,0.8);
+}
+#upperContainer {
+  /* width: 1200px; */
+  margin: auto;
+  height: 40px;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#logo {
+  width: 270px;
+  height: 45px;
+  float: left;
+}
+#logo h1{
+    font-family: 'Coming Soon', cursive;
+	
+    font-size: 41px;
+	color:white;
+    /* line-height: 70px; */
+}
+#logo h1 span{
+    font-family: 'Coming Soon', cursive;
+    margin: 0px -1px;
+    font-size: 21px;
+    vertical-align: 5px;
+}
+#container {
+  width: 1250px;
+  margin: auto;
+  margin-top: 80px;
+}
+#wrapper {
+  margin: auto;
+  float: left;
+}
+li.instaContainer {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin: 5px;
+  overflow: hidden;
+  display:block;
+  z-index:9999;
+}
+.overLay {
+ width: 100%;
+ height: 100%;
+ background: black;
+ opacity: .9;
+ position: relative;
+ float: left;
+ top: 0px;
+ left: 0px;
+ padding: 5px;
+ z-index: 99;
+ cursor:pointer;
+}
+.overLay:hover {
+  opacity: .2;
+}
+.instaContainer img {
+  width: 100%;
+  height: 100%;
+  position:relative;
+  top:-410px;
+}
+
+/* TEXT AND COLOR STYLES */
+.overLay h2 {
+  font-family: arial;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  margin-top: 120px;
+  width: 390px;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+/* JQUERY STYLES */
+.hiddenImage {
+  display: none;
+}
+
+/* Butttons */
+#morePics {
+  float: right;
+  /* background: blue; */
+  cursor: pointer;
+  margin-top: 8px;
+}
+#morePics p{
+	color:white;
+    font-family: 'Coming Soon', cursive;	
+	
+	font-size: 28px;
+}
+#morePics p span{
+    font-family: 'Coming Soon', cursive;	
+	color:white;
+    margin-left: 10px;
+}
+#morePics:hover {
+  background-position: 0px -45px;
+}
+
+/* TABLET SIZES */
+@media all and (max-width: 960px) and (min-width: 700px) {
+  #upperContainer {
+    /* width: 621px; */
+   }
+  #container {
+    width: 621px;
+    background: purple;
+  }
+  .instaContainer img {
+    top:-310px;
+  }
+  li.instaContainer {
+    width: 300px;
+    height: 300px;
+  }
+  .overLay h2 {
+    width: 290px;
+    margin-top: 70px;
+    font-size: 15px;
+  }
+}
+
+/* SMART PHONE SIZES */
+@media all and (max-width: 700px) and (min-width: 0px) {
+#upperContainer {
+    /* width: 300px; */
+  }
+  #morePics {
+    width: 150px;
+    /* border-left: thin gray solid; */
+    background-position: -155px 0px;
+  
+    text-align: right;
+}
+  #morePics:hover {
+    background-position: -155px 0px;
+  }
+  #container {
+    width: 262px;
+    background: green;
+  }
+  li.instaContainer {
+    width: 250px;
+    height: 250px;
+  }
+  .instaContainer img {
+    top:-260px;
+  }
+  .overLay h2 {
+    width: 245px;
+    margin-top: 40px;
+    font-size: 12px;
+  }
+}
+}
