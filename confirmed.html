@@ -1,37 +1,55 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Mirth-A-Gram | Just The Nonsense That happens at Closerlook | Dept. of Mirth</title>
-<meta name="viewport" content="width=device-width" initial-scale="1">
-<link rel="stylesheet" href="css/reset.css">
-<link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-<div id="loadOverlay">
-<!--<div id="load_meter">
-<div id="load_complete"></div>-->
-</div>
-</div>
-<div id="controls">
- <div id="upperContainer">
-  <div id="logo"><h1>Mirth<span> - A - </span>Gram</h1></div>
-  <div id="morePics" data="next_url" style="display: none;"><p>More Pics<span>></span></p></div>
- </div>
-</div>
-<!-- Change atrr data to whatever tag you want to display -->
-<div id="container" data="mirthgram"  >
- <div id="wrapper">
-  <ul id="imageContainer">
-  </ul>
- </div>
-</div>
-    <div id="bg"></div>
-<script src="js/jquery-1.8.3.min.js"></script> 
-<script src="js/main.js"></script>
-</body>
+<!DOCTYPE>
+<html > 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Mirth-A-Gram | Just The Nonsense That happens at Closerlook | Dept. of Mirth</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no" initial-scale="0" >
+    <link rel="stylesheet" href="css/reset.css">
+    <link href='http://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div id="load_overlay">
+      <div id="menu">
+        <div class="controls">
+          <div id="close" class="btn"></div>
+          <div id="back" class="btn"></div>
+        </div>
+        <div class="slide_container">
+          <ul>
+            <li id="inst_btn"><a href="#"><div class="icon" id="instructions"></div><p>How to use Mirthgram.</p></a></li>
+            <li><a href="http://closerlook.com"><div id="cl" class="icon"></div><p>Visit Closerlook's website.</p></a></li>
+            <li><a href="http://instagram.com/accounts/logout"><div class="icon" id="logout"></div><p>Logout of Mirthgram.</p></a></li>
+          </ul>
+          <ul id="instructions">
+            <li><a href="#"><div id="step_one" class="icon"></div><p>Follow @closerlookgrams on instagram.</p></a></li>
+            <li><a href="#"><div id="step_two" class="icon"></div><p>Tag your instagrams #mirthgram</p></a></li>
+            <li><a href="#"><div id="step_three" class="icon"></div><p>Get involved! Tag other CL'ers and spread the word.</p></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="controls">  
+      <div id="logo">
+        <a href="http://www.facebook.com/codeandpen"><span>
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 113.386 113.386" enable-background="new 0 0 113.386 113.386" xml:space="preserve">
+             <g>
+	           <g>
+		         <path fill="#FFFFFF" d="M27.774,19.716V93.67h57.839V19.716H27.774z M80.672,85.952H32.719v-8.359h47.953V85.952z M80.672,69.228
+			H32.719v-8.35h47.953V69.228z M80.672,52.511H32.719v-8.358h47.953V52.511z M80.672,35.788H32.719v-8.35h47.953V35.788z"/>
+	           </g>
+            </g>
+          </svg>
+        </span>MirthGrams</a>
+      </div>
+      <div id="more_pics" data="next_url"><h3>More mirth<span>>></span></h3></div>
+    </div>
+    <ul id="image_container" rel="mirthgram"></ul>
+    <div id="background"></div>
+    <script src="js/jquery-1.8.3.min.js"></script> 
+    <script src="js/main.js"></script>
+  </body>
+</html>
