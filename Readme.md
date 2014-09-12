@@ -1,6 +1,6 @@
 Mirthgrams version 0.5 - Free Beer 
 ===========
-<img src ="https://raw.githubusercontent.com/ArledgeMike/meatshot/master/images/meat-shot-cover.png" />
+<img src ="https://raw.githubusercontent.com/ArledgeMike/mirthgrams/master/images/mirthgram_cover.jpg" />
 
 
 <h2>Mirthgrams</h2> <p>Version 0.5 - Free Beer</p>
