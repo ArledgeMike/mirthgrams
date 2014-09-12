@@ -1,9 +1,9 @@
-Mirthgrams version 0.5 - Free Beer 
+Mirthgram version 0.5 - Free Beer 
 ===========
 <img src ="https://raw.githubusercontent.com/ArledgeMike/mirthgrams/master/images/mirthgram_cover.png" />
 
 
-<h2>Mirthgrams</h2> <p>Version 0.5 - Free Beer</p>
+<h2>Mirthgram</h2> <p>Version 0.5 - Free Beer</p>
 <p>Closerlook's very own instagram hashtag aggrigator.</p>
 
 <h3>How to use Mirthgram</h3>
@@ -12,7 +12,7 @@ Mirthgrams version 0.5 - Free Beer
 <li>Go and follow @Closerlookgrams on instagram.</li>
 <li>Take a photo, add your filters (no x-pro I beg you), tag that photo with #mirthgram, tag other Closerlookers as well to spread the word.</li>
 <li>Do we really need to say what to do next? (upload that photo kid)</li>
-<li>Visit <a href="http://codeandpen.com/mirthgrams">Mirthgrams</a> to see your photo and others like it from other Closerlookers</li>
+<li>Visit <a href="http://codeandpen.com/mirthgrams">Mirthgram</a> to see your photo and others like it from other Closerlookers</li>
 <li>Get excited cause you did a good job and spread the word.</li>
 </ol>
 
