@@ -27,4 +27,4 @@ Mirthgrams version 0.5 - Free Beer
 
 <br/>
 <br/>
-<p>This is a <a href="http://bobdotbiz.com">Business Opportunity Building</a> product. Click the link to learn more about Portillos and Gifs.</p>
+<p>This is a <a href="http://www.bobdotbiz.com">Business Opportunity Building</a> product. Click the link to learn more about Portillos and Gifs.</p>
