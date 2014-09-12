@@ -1,6 +1,6 @@
 Mirthgrams version 0.5 - Free Beer 
 ===========
-<img src ="https://raw.githubusercontent.com/ArledgeMike/meatshot/master/images/meat-shot-cover.png" />
+<img src ="https://raw.githubusercontent.com/ArledgeMike/mirthgrams/master/images/mirthgram_cover.jpg" />
 
 
 <h2>Mirthgrams</h2> <p>Version 0.5 - Free Beer</p>
@@ -22,9 +22,9 @@ Mirthgrams version 0.5 - Free Beer
 <h3>Know how to code? Want to help?</h3>
 <p>Start up a <a href="http://github.com">Github</a> account, make a pull request, and then send your changes up stream for a merge. Anyone providing working code that gets merged I am buying a beer.</p>
 
-<h3>Got an idea or art or some copy</h3>
-<p>I can't think of everything and these three items I find others are really good at. I could really use some help with the copy. Same rules apply free beer to those that make the merge.</p>
+<h3>Got an idea, or art, or some copy?</h3>
+<p>I can't think of everything and these three items I find others are really good at. I could really use some help with the copy. Email arledgemike@gmail.com and show some interest if you want to be included. Same rules apply free beer to those that make the merge.</p>
 
 <br/>
 <br/>
-<p>This is a <a href="http://bobdotbiz.com">Business Opportunity Building</a> product. Click the link to learn more about Portillos and Gifs.</p>
+<p>This is a <a href="http://www.bobdotbiz.com">Business Opportunity Building</a> product. Click the link to learn more about Portillos and Gifs.</p>
